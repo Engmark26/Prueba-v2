@@ -20,6 +20,7 @@ namespace Helloworld
             Console.WriteLine("Tu edad: " + DatoEntero.ToString());
             Console.WriteLine("Barra pan: " + DatoReal.ToString("0.00"));
 
+            Console.ReadKey();
         }
 
     }
