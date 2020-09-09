@@ -10,11 +10,11 @@ namespace Helloworld
             string Cadena;
             int DatoEntero;
             double DatoReal;
-            Console.Write("¿Cual es tu nombre?: ");
+            Console.Write("¿Como te llamas?: ");
             Cadena = Console.ReadLine();
-            Console.Write("¿Cual es tu edad?: ");
+            Console.Write("¿Cuantos años tienes?: ");
             DatoEntero = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Introduce el precio de unos cheetos: ");
+            Console.Write("Introduce el precio del pan: ");
             DatoReal = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Tu nombre: " + Cadena);
             Console.WriteLine("Tu edad: " + DatoEntero.ToString());
